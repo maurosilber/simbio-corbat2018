@@ -1,17 +1,17 @@
-# simbio-<name>
+# simbio-corbat2018
 
 ## Installation
 
 ```
-pip install simbio-<name>
+pip install simbio-corbat2018
 ```
 
 ## Usage
 
 ```python
-from simbio.models.<name> import <model>
+from simbio.models.corbat2018 import Corbat2018_extrinsic
 from simbio.simulator import Simulator
 
 t = range(100)
-Simulator(<model>).run(t).plot()
+Simulator(Corbat2018_extrinsic).run(t).plot()
 ```
