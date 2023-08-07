@@ -1,6 +1,6 @@
-from simbio.components import Override, Parameter, Species, EmptyGroup
-from simbio.reactions.enzymatic import MichaelisMenten
+from simbio.components import EmptyGroup, Override, Parameter, Species
 from simbio.models.earm import AlbeckAsMatlab
+from simbio.reactions.enzymatic import MichaelisMenten
 
 
 class Sensor(EmptyGroup):
